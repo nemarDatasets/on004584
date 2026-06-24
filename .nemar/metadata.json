@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on004584",
-  "source": "openneuro",
-  "source_id": "ds004584",
+  "pipeline_stage": "enriched",
   "title": "Rest eyes open",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Arun Singh arun.singh@usd.edu": {},
     "Rachel Cole rachel-cole@uiowa.edu": {},
@@ -11,21 +11,69 @@
     "Jim Cavanagh jcavanagh@unm.edu": {},
     "Nandakumar Narayanan nandakumar-narayanan@uiowa.edu": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004584.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1101/2022.07.26.22278079",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004584",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004584",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "v1.2.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "A resting-state EEG dataset comprising 149 subjects (100 with Parkinson's disease and 49 healthy controls) recorded using a 64-channel BrainVision system. Participants were seated in a quiet environment with eyes open for two minutes. This dataset provides neurophysiological data suitable for investigating EEG biomarkers associated with Parkinson's disease.",
+  "methods_description": "Resting-state EEG was recorded using a 64-channel BrainVision cap from subjects seated in a quiet room with eyes open for two minutes. The dataset includes 100 individuals with Parkinson's disease and 49 healthy controls.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Parkinson's disease",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
+    },
+    {
+      "term": "resting-state"
+    },
+    {
+      "term": "healthy controls"
+    },
+    {
+      "term": "Neurophysiology",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D009482"
+    },
+    {
+      "term": "Biomarkers",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015415"
+    }
+  ],
+  "source_hash": "5d2359d383037a24ff851cdb758938052427c2f0e52067f89ce3dbb9ad89747e"
 }
