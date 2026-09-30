@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Rest eyes open",
-  "description": "A resting-state EEG dataset comprising 149 subjects (100 with Parkinson's disease and 49 healthy controls) recorded using a 64-channel BrainVision system. Participants were seated in a quiet environment with eyes open for two minutes of continuous recording. This dataset provides neurophysiological data suitable for investigating oscillatory brain activity and potential biomarkers associated with Parkinson's disease.",
-  "methods_description": "Resting-state EEG was recorded using a 64-channel BrainVision cap from subjects seated in a quiet room with eyes open for two minutes.",
+  "description": "Resting-state EEG dataset from 149 participants, including 100 individuals with Parkinson's disease and 49 controls. Recordings were acquired with a 64-channel BrainVision system during two minutes of eyes-open rest. The data support investigation of neural correlates of cognitive dysfunction in Parkinson's disease.",
+  "methods_description": "EEG was recorded with a 64-channel BrainVision cap while participants sat in a quiet room with their eyes open for two minutes.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,23 +18,25 @@
       "term": "EEG"
     },
     {
-      "term": "Parkinson's disease"
+      "term": "resting state"
     },
     {
-      "term": "resting-state"
+      "term": "Parkinson Disease",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
     },
     {
-      "term": "brain oscillations"
+      "term": "eyes open"
     },
     {
-      "term": "neurophysiology"
+      "term": "cognitive dysfunction"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.1101/2022.07.26.22278079",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on004584",
@@ -42,14 +44,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004584",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds004584.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004584",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -57,7 +59,7 @@
     "eeg"
   ],
   "sizes": [
-    "3.1 GB (299 files)"
+    "2.87 GB (299 files)"
   ],
   "formats": [
     ".fdt",
