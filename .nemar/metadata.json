@@ -3,7 +3,7 @@
   "pipeline_stage": "validated",
   "title": "Rest eyes open",
   "description": "Resting-state EEG dataset from 149 participants, including 100 individuals with Parkinson's disease and 49 controls. Recordings were acquired with a 64-channel BrainVision system during two minutes of eyes-open rest. The data support investigation of neural correlates of cognitive dysfunction in Parkinson's disease.",
-  "methods_description": "EEG was recorded with a 64-channel BrainVision cap while participants sat in a quiet room with their eyes open for two minutes.",
+  "methods_description": "Resting-state EEG was recorded with a 64-channel BrainVision cap while participants sat in a quiet room with their eyes open for two minutes.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
